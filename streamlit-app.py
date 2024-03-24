@@ -19,5 +19,3 @@ if uploaded_file is not None:
     synthetic_df = ctgan.sample(number)
 
     st.write(synthetic_df)
-    
-    # synthetic_iris.head(20)
