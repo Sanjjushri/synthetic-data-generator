@@ -4,6 +4,7 @@ from ctgan import CTGAN
 
 uploaded_file = st.file_uploader("Choose a file")
 
+
 if uploaded_file is not None:
 
     number = st.number_input('Number of rows', min_value=0, step=1000)
